@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/tabBar/unionMemage/index",
+    "pages/tabBar/strategy/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/tabBar/strategy/index",
+        "iconPath": "static/icon/document.png",
+        "selectedIconPath": "static/icon/document-selected.png",
+        "text": "攻略"
+      },
+      {
+        "pagePath": "pages/tabBar/unionMemage/index",
+        "iconPath": "static/icon/group.png",
+        "selectedIconPath": "static/icon/group-selected.png",
+        "text": "工会管理"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
