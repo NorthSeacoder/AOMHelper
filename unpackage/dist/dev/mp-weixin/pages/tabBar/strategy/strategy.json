@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "攻略",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid"
+  }
 }

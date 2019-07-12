@@ -1,1 +1,1 @@
-<view></view>
+<uni-grid vue-id="1" options="{{options}}" column-num="2" show-border="false" type="oblong" data-event-opts="{{[['^click',[['onClick']]]]}}" bind:click="__e" bind:__l="__l"></uni-grid>

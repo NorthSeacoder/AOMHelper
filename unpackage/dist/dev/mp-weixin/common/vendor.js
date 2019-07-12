@@ -7282,26 +7282,9 @@ createApp(app).$mount();
 
 /***/ }),
 
-/***/ "D:\\HBuilderProjects\\AOMHelper\\main.js?{\"page\":\"pages%2FtabBar%2Fstrategy%2Findex\"}":
-/*!******************************************************************************************!*\
-  !*** D:/HBuilderProjects/AOMHelper/main.js?{"page":"pages%2FtabBar%2Fstrategy%2Findex"} ***!
-  \******************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\HBuilderProjects\\AOMHelper\\pages.json");
-
-var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/strategy/index.vue */ "D:\\HBuilderProjects\\AOMHelper\\pages\\tabBar\\strategy\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
-
-/***/ }),
-
-/***/ "D:\\HBuilderProjects\\AOMHelper\\main.js?{\"page\":\"pages%2FtabBar%2FunionMemage%2Findex\"}":
+/***/ "D:\\HBuilderProjects\\AOMHelper\\main.js?{\"page\":\"pages%2FtabBar%2Fstrategy%2Fstrategy\"}":
 /*!*********************************************************************************************!*\
-  !*** D:/HBuilderProjects/AOMHelper/main.js?{"page":"pages%2FtabBar%2FunionMemage%2Findex"} ***!
+  !*** D:/HBuilderProjects/AOMHelper/main.js?{"page":"pages%2FtabBar%2Fstrategy%2Fstrategy"} ***!
   \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -7310,8 +7293,25 @@ createPage(_index.default);
 /* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\HBuilderProjects\\AOMHelper\\pages.json");
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
-var _index = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/unionMemage/index.vue */ "D:\\HBuilderProjects\\AOMHelper\\pages\\tabBar\\unionMemage\\index.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
-createPage(_index.default);
+var _strategy = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/strategy/strategy.vue */ "D:\\HBuilderProjects\\AOMHelper\\pages\\tabBar\\strategy\\strategy.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_strategy.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "D:\\HBuilderProjects\\AOMHelper\\main.js?{\"page\":\"pages%2FtabBar%2FunionMemage%2FunionMemage\"}":
+/*!***************************************************************************************************!*\
+  !*** D:/HBuilderProjects/AOMHelper/main.js?{"page":"pages%2FtabBar%2FunionMemage%2FunionMemage"} ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "D:\\HBuilderProjects\\AOMHelper\\pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _unionMemage = _interopRequireDefault(__webpack_require__(/*! ./pages/tabBar/unionMemage/unionMemage.vue */ "D:\\HBuilderProjects\\AOMHelper\\pages\\tabBar\\unionMemage\\unionMemage.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_unionMemage.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
@@ -7325,6 +7325,25 @@ createPage(_index.default);
 
 "use strict";
 
+
+/***/ }),
+
+/***/ "D:\\HBuilderProjects\\AOMHelper\\pages\\tabBar\\strategy\\constant\\options.js":
+/*!*******************************************************************************!*\
+  !*** D:/HBuilderProjects/AOMHelper/pages/tabBar/strategy/constant/options.js ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.gridOptions = void 0;var gridOptions = [
+{ text: '装备查询', name: '' },
+{ text: '英雄优先级', name: '' },
+{ text: '活动英雄', name: '' },
+{ text: '英雄碎片', name: '' },
+{ text: '标记相关', name: '' },
+{ text: '阵容推荐', name: '' },
+{ text: '公会任务', name: '' }];exports.gridOptions = gridOptions;
 
 /***/ })
 

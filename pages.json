@@ -1,13 +1,18 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 	    {
-            "path" : "pages/tabBar/unionMemage/index",
-            "style" : {}
+	        "path" : "pages/tabBar/strategy/strategy",
+	        "style" : {
+				"navigationBarTitleText": "攻略"//设置页面标题文字
+			}
+	    } ,
+		{
+            "path" : "pages/tabBar/unionMemage/unionMemage",
+            "style" : {
+				"navigationBarTitleText": "工会管理"//设置页面标题文字
+			}
         }
-        ,{
-            "path" : "pages/tabBar/strategy/index",
-            "style" : {}
-        }
+        
     ],
 	"tabBar": {
 		"color": "#7A7E83",
@@ -15,13 +20,13 @@
 		"borderStyle": "black",
 		"backgroundColor": "#F8F8F8",
 		"list": [{
-				"pagePath": "pages/tabBar/strategy/index",
+				"pagePath": "pages/tabBar/strategy/strategy",
 				"iconPath": "static/icon/document.png",
 				"selectedIconPath": "static/icon/document-selected.png",
 				"text": "攻略"
 			},
 			{
-				"pagePath": "pages/tabBar/unionMemage/index",
+				"pagePath": "pages/tabBar/unionMemage/unionMemage",
 				"iconPath": "static/icon/group.png",
 				"selectedIconPath": "static/icon/group-selected.png",
 				"text": "工会管理"

@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/tabBar/unionMemage/index",
-    "pages/tabBar/strategy/index"
+    "pages/tabBar/strategy/strategy",
+    "pages/tabBar/unionMemage/unionMemage"
   ],
   "subPackages": [],
   "window": {
@@ -17,18 +17,19 @@
     "backgroundColor": "#F8F8F8",
     "list": [
       {
-        "pagePath": "pages/tabBar/strategy/index",
+        "pagePath": "pages/tabBar/strategy/strategy",
         "iconPath": "static/icon/document.png",
         "selectedIconPath": "static/icon/document-selected.png",
         "text": "攻略"
       },
       {
-        "pagePath": "pages/tabBar/unionMemage/index",
+        "pagePath": "pages/tabBar/unionMemage/unionMemage",
         "iconPath": "static/icon/group.png",
         "selectedIconPath": "static/icon/group-selected.png",
         "text": "工会管理"
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap72.json"
 }
